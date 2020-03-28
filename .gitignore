@@ -8,16 +8,21 @@
 # name; updating Drupal core will not override your custom .gitignore file.
 
 # Ignore core and vendor when managing dependencies with Composer.
-web/core
+core
 vendor
 
+# Ignore contrib modules/themes
+modules/contrib/*
+themes/contrib/*
+profiles/contrib/*
+
 # Ignore configuration files that may contain sensitive information.
-web/sites/*/settings*.php
-web/sites/*/services*.yml
+sites/*/settings*.php
+sites/*/services*.yml
 
 # Ignore paths that contain user-generated content.
-web/sites/*/files
-web/sites/*/private
+sites/*/files
+sites/*/private
 
 # Ignore SimpleTest multi-site environment.
-web/sites/simpletest
+sites/simpletest
