@@ -1,0 +1,10 @@
+
+Fatal error: Uncaught Error: Class 'Drupal\Core\Session\AccountInterface' not found in /var/www/html/core/includes/bootstrap.inc:106
+Stack trace:
+#0 /root/.composer/vendor/drush/drush/src/Boot/DrupalBoot8.php(98): require_once()
+#1 /root/.composer/vendor/drush/drush/src/Boot/DrupalBoot.php(141): Drush\Boot\DrupalBoot8->getVersion('/var/www/html')
+#2 /root/.composer/vendor/drush/drush/src/Boot/BootstrapManager.php(293): Drush\Boot\DrupalBoot->bootstrapDrupalRoot(Object(Drush\Boot\BootstrapManager), NULL)
+#3 /root/.composer/vendor/drush/drush/src/Boot/BootstrapManager.php(493): Drush\Boot\BootstrapManager->doBootstrap(1, 3, NULL)
+#4 /root/.composer/vendor/drush/drush/src/Boot/BootstrapManager.php(427): Drush\Boot\BootstrapManager->bootstrapMax(3)
+#5 /root/.composer/vendor/drush/drush/src/Boot/BootstrapManager.php(396): Drush\Boot\BootstrapManager->bootstrapToPhaseIndex(-2, Object(Consolidation\AnnotatedCommand\AnnotationData))
+#6 /root/.composer/vendor/drush/drush/src/Boot/BootstrapHook.php(28): Drush\Boot\BootstrapManager- in /var/www/html/core/includes/bootstrap.inc on line 106
