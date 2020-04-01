@@ -13,8 +13,10 @@
         "drupal/core-composer-scaffold": "^8.8",
         "composer/installers": "1.7",
         "drupal/core-recommended": "^8.8",
-        "drupal/devel": "^2.1",
         "drupal/restui": "^1.17"
+    },
+    "require-dev": {
+        "drupal/devel": "2.1"
     },
     "repositories": {
         "drupal": {
